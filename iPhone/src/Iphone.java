@@ -22,7 +22,7 @@ public class Iphone  implements ReprodutorMusical, Telefone, Navegador{
 
     @Override
     public void tocar() {
-        System.out.println("Reproduzindo " + selecionarMusica(););
+        System.out.println("Reproduzindo" );
 
 
     }
@@ -40,8 +40,10 @@ public class Iphone  implements ReprodutorMusical, Telefone, Navegador{
 
     }
 
+
+
     @Override
-    public void ligar() {
+    public void ligar(int tel) {
         System.out.println("Iniciando chamada");
 
     }
